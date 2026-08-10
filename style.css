@@ -67,6 +67,90 @@ header h1 {
     text-align: justify;
 }
 
+/* --- NOVOS ESTILOS: CURTIDAS E COMENTÁRIOS --- */
+
+/* Barra de Ações (Curtir) */
+.post-actions {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 0.8rem 0;
+    margin: 1rem 0;
+}
+
+.like-btn {
+    background: none;
+    border: none;
+    color: #7f8c8d;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.like-btn:hover {
+    color: #e74c3c;
+}
+
+.like-btn.liked {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Seção de Comentários */
+.comments-section {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.comments-section h3 {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    color: #34495e;
+}
+
+.comment-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.comment-input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.comment-submit {
+    background: #34495e;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.comment-submit:hover {
+    background: #2c3e50;
+}
+
+/* Lista de Comentários */
+.comments-list {
+    list-style: none;
+}
+
+.comment-item {
+    background: #fff;
+    padding: 0.6rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    border-left: 3px solid #34495e;
+    font-size: 0.9rem;
+    word-break: break-all;
+}
+
 /* Rodapé */
 footer {
     text-align: center;
