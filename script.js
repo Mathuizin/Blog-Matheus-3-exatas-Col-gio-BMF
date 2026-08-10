@@ -4,7 +4,7 @@ const posts = [
         id: 1,
         titulo: "Dia 1: O Caos do Primeiro Dia de Aula",
         data: "03 de Fevereiro de 2026",
-        imagem: "imagens/foto1.jpeg",
+        imagem: img/foto1.jpeg,
         conteúdo: "O primeiro dia é sempre uma mistura de ansiedade e sono acumulado das férias. Reencontrar a galera no pátio foi a melhor parte, mas descobrir que a primeira aula era de matemática logo cedo quebrou o ritmo. A escola mudou algumas salas de lugar, então metade da turma se perdeu antes do sinal tocar.",
         curtidas: 12,
         curtido: false,
